@@ -3,6 +3,64 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
+## [1.0.0.pre](https://github.com/consul/consul/compare/v0.19...1.0.0.pre) (2019-04-18)
+
+### Added
+
+- **Budgets:** Add on admin budget investments an advanced filter for max supports [\#3364](https://github.com/consul/consul/pull/3364)
+- **Budgets:** Add price column in the admin budget investments table [\#3356](https://github.com/consul/consul/pull/3356) ([abelardogilm](https://github.com/abelardogilm))
+- **Budgets:** Allow voting Budget Investments in booths [\#3344](https://github.com/consul/consul/pull/3344) ([javierm](https://github.com/javierm))
+- **Budgets**: Budget ballot sheets UI [\#2857](https://github.com/consul/consul/pull/2857)
+- **Polls:** Add officing booths [\#3345](https://github.com/consul/consul/pull/3345) ([javierm](https://github.com/javierm))
+- **Polls:** Add cumulative totals to admin poll recounts list [\#3342](https://github.com/consul/consul/pull/3342) ([javierm](https://github.com/javierm))
+- **Polls:** Verify poll ballots [\#2858](https://github.com/consul/consul/pull/2858)
+- **Maintenance-Seeds:** Include default custom pages in developers seed [\#3402](https://github.com/consul/consul/pull/3402) ([microweb10](https://github.com/microweb10))
+- **Maintenance-Rubocop:** Enable rubocop rules in config and seed files [\#3380](https://github.com/consul/consul/pull/3380) ([javierm](https://github.com/javierm))
+- **Maintenance-Rubocop:** Add ERB Lint configuration file [\#3379](https://github.com/consul/consul/pull/3379) ([javierm](https://github.com/javierm))
+- **Maintenance-Rubocop:** Add CoffeeLint rules [\#3338](https://github.com/consul/consul/pull/3338) ([javierm](https://github.com/javierm))
+- **Maintenance-IDEs:** Add Intellij IDE project settings to gitignore [\#3430](https://github.com/consul/consul/pull/3430) ([voodoorai2000](https://github.com/voodoorai2000))
+
+### Changed
+
+- **Budgets:** Update texts on check my ballot links [\#3407](https://github.com/consul/consul/pull/3407) ([decabeza](https://github.com/decabeza))
+- **Budgets:** Change admin budget investments subfilters from tabs to advanced filter checkboxes [\#3351](https://github.com/consul/consul/pull/3351) ([abelardogilm](https://github.com/abelardogilm))
+- **Proposals:** Add rake to move external\_url to description [\#3396](https://github.com/consul/consul/pull/3396) ([decabeza](https://github.com/decabeza))
+- **Verification:** Use min age to participate setting on verification residence form [\#3399](https://github.com/consul/consul/pull/3399) ([decabeza](https://github.com/decabeza))
+- **Translations:** Generalize i18n texts [\#3337](https://github.com/consul/consul/pull/3337) ([decabeza](https://github.com/decabeza))
+- **Admin:** Improve Admin settings section [\#3387](https://github.com/consul/consul/pull/3387) ([microweb10](https://github.com/microweb10))
+- **Customization:** Default site customization pages [\#3353](https://github.com/consul/consul/pull/3353) ([microweb10](https://github.com/microweb10))
+- **UX/UI:** Improve UX on admin section [\#3334](https://github.com/consul/consul/pull/3334) ([decabeza](https://github.com/decabeza))
+- **Maintenance-README:** Update docs link on README [\#3418](https://github.com/consul/consul/pull/3418) ([decabeza](https://github.com/decabeza))
+- **Maintenance-README:** Update docs link on README [\#3418](https://github.com/consul/consul/pull/3418) ([decabeza](https://github.com/decabeza))
+- **Maintenance-README:** Update README [\#3417](https://github.com/consul/consul/pull/3417) ([decabeza](https://github.com/decabeza))
+- **Maintenance-Specs:** Use 3 Travis nodes for running the test suite [\#3416](https://github.com/consul/consul/pull/3416) ([microweb10](https://github.com/microweb10))
+- **Maintenance-Specs:** Simplify poll factories [\#3384](https://github.com/consul/consul/pull/3384) ([javierm](https://github.com/javierm))
+- **Maintenance-Rubocop:** Add missing double quotes [\#3404](https://github.com/consul/consul/pull/3404) ([javierm](https://github.com/javierm))
+- **Maintenance-Refactoring:** Change single quotes to double quotes everywhere [\#3370](https://github.com/consul/consul/pull/3370) ([microweb10](https://github.com/microweb10))
+- **Maintenance-Refactoring:** Change single quotes to double quotes for views [\#3369](https://github.com/consul/consul/pull/3369) ([microweb10](https://github.com/microweb10))
+- **Maintenance-Refactoring:** Change single quotes to double quotes for models [\#3362](https://github.com/consul/consul/pull/3362) ([microweb10](https://github.com/microweb10))
+- **Maintenance-Refactoring:** Use double quotes in CoffeeScript files [\#3339](https://github.com/consul/consul/pull/3339) ([javierm](https://github.com/javierm))
+- **Maintenance-Refactoring:** Change single quotes to double quotes for controllers [\#3360](https://github.com/consul/consul/pull/3360) ([microweb10](https://github.com/microweb10))
+- **Maintenance-Gems:** Bump Rails version to 4.2.11.1 [\#3358](https://github.com/consul/consul/pull/3358) ([voodoorai2000](https://github.com/voodoorai2000))
+
+### Fixed
+
+- **Budgets:** Show unfeasible budget investment messages only when valuation finished [\#3340](https://github.com/consul/consul/pull/3340) ([decabeza](https://github.com/decabeza))
+- **Polls:** Display 'Validate document' menu item only when applicable [\#3343](https://github.com/consul/consul/pull/3343) ([javierm](https://github.com/javierm))
+- **Polls:** Improvements about displaying results for voted polls [\#3341](https://github.com/consul/consul/pull/3341) ([microweb10](https://github.com/microweb10))
+- **Polls**: Enable options to show stats and results with any type of voter [\#3155](https://github.com/consul/consul/pull/3155)
+- **Legislations:** Fix legislation process feed order [\#3400](https://github.com/consul/consul/pull/3400) ([javierm](https://github.com/javierm))
+- **Accessibility:** Fix accessibility and HTML warnings [\#3366](https://github.com/consul/consul/pull/3366) ([decabeza](https://github.com/decabeza))
+- **Images:** Keep images uploaded with CKEditor when deploying [\#3367](https://github.com/consul/consul/pull/3367) ([microweb10](https://github.com/microweb10))
+- **Maintenance-Exception:** Fix exception when confirming an invalid token [\#3432](https://github.com/consul/consul/pull/3432) ([javierm](https://github.com/javierm))
+- **Maintenance-Exception:** Require logged in user if navigate to /welcome [\#3385](https://github.com/consul/consul/pull/3385) ([microweb10](https://github.com/microweb10))
+- **Maintenance-Specs:** Fix sort by random inconsistencies [\#3420](https://github.com/consul/consul/pull/3420) ([javierm](https://github.com/javierm))
+- **Maintenance-Specs:** Fix investment pagination tests [\#3405](https://github.com/consul/consul/pull/3405) ([javierm](https://github.com/javierm))
+- **Maintenance-Rubocop:** Fix houncibot parse error [\#3435](https://github.com/consul/consul/pull/3435) ([taitus](https://github.com/taitus))
+
+### Removed
+- **Maintenance-Deprecated:** Remove obsolete rake tasks [\#3401](https://github.com/consul/consul/pull/3401) ([javierm](https://github.com/javierm))
+
 ## [v0.19](https://github.com/consul/consul/compare/v0.18.1...v0.19) (2019-02-27)
 
 ### Added
@@ -713,7 +771,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Rails 4.2.6
 - Ruby 2.2.3
 
-[Unreleased]: https://github.com/consul/consul/compare/v0.18...consul:master
+[Unreleased]: https://github.com/consul/consul/compare/1.0.0.pre...consul:master
+[1.0.0.pre]: https://github.com/consul/consul/compare/v0.19...1.0.0.pre
+[0.19.0]: https://github.com/consul/consul/compare/v0.18...v.019
 [0.18.0]: https://github.com/consul/consul/compare/v0.17...v.018
 [0.17.0]: https://github.com/consul/consul/compare/v0.16...v.017
 [0.16.0]: https://github.com/consul/consul/compare/v0.15...v.016
