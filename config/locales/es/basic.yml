@@ -1,0 +1,44 @@
+es:
+  debates:
+    index:
+      section_footer:
+        title: "Ayuda sobre los debates"
+        description: "Inicia un debate para compartir puntos de vista con otras personas sobre los temas que te preocupan."
+        help_text_1: "El espacio de debates ciudadanos está dirigido a que cualquier persona pueda exponer temas que le preocupan y sobre los que quiera compartir puntos de vista con otras personas."
+        help_text_2: 'Para abrir un debate es necesario registrarse en %{org}. Los usuarios ya registrados también pueden comentar los debates abiertos y valorarlos con los botones de "Estoy de acuerdo" o "No estoy de acuerdo" que se encuentran en cada uno de ellos.'
+    new:
+      info: "Si lo que quieres es hacer una propuesta, esta es la sección incorrecta, entra en %{info_link}."
+      info_link: "crear nueva propuesta"
+      more_info: "Más información"
+      recommendation_one: "No escribas el título del debate o frases enteras en mayúsculas. En internet eso se considera gritar. Y a nadie le gusta que le griten."
+      recommendation_two: "Cualquier debate o comentario que implique una acción ilegal será eliminado, también los que tengan la intención de sabotear los espacios de debate, todo lo demás está permitido."
+      recommendation_three: "Las críticas despiadadas son muy bienvenidas. Este es un espacio de pensamiento. Pero te recomendamos conservar la elegancia y la inteligencia. El mundo es mejor con ellas presentes."
+      recommendation_four: "Disfruta de este espacio, de las voces que lo llenan, también es tuyo."
+      recommendations_title: "Recomendaciones para crear un debate"
+  proposals:
+    index:
+      section_footer:
+        title: Ayuda sobre las propuestas
+        description: Las propuestas ciudadanas son una oportunidad para que los vecinos y colectivos decidan directamente cómo quieren que sea su ciudad, después de conseguir los apoyos suficientes y de someterse a votación ciudadana.
+    new:
+      more_info: "¿Cómo funcionan las propuestas ciudadanas?"
+      recommendation_one: "No escribas el título de la propuesta o frases enteras en mayúsculas. En internet eso se considera gritar. Y a nadie le gusta que le griten."
+      recommendation_two: "Cualquier propuesta o comentario que implique una acción ilegal será eliminada, también las que tengan la intención de sabotear los espacios de propuesta, todo lo demás está permitido."
+      recommendation_three: "Disfruta de este espacio, de las voces que lo llenan, también es tuyo."
+      recommendations_title: "Recomendaciones para crear una propuesta"
+  polls:
+    index:
+      section_footer:
+        title: Ayuda sobre las votaciones
+        description: Las votaciones ciudadanas son un mecanismo de participación por el que la ciudadanía con derecho a voto puede tomar decisiones de forma directa.
+  legislation:
+    processes:
+      index:
+        section_footer:
+          title: Ayuda sobre Legislación colaborativa
+          description: Participa en los debates y procesos previos a la aprobación de nuevas normas o planes. Tu opinión será tenida en cuenta.
+  budgets:
+    index:
+      section_footer:
+        title: Ayuda sobre presupuestos participativos
+        description: Con los presupuestos participativos la ciudadanía decide a qué proyectos va destinada una parte del presupuesto.

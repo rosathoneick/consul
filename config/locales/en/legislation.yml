@@ -69,9 +69,6 @@ en:
           icon_alt: Collaborative legislation icon
           title: Collaborative legislation
           help: Help about collaborative legislation
-        section_footer:
-          title: Help about collaborative legislation
-          description: Participate in the debates and processes prior to the approval of new regulations or strategies. Your opinion will be considered.
       phase_not_open:
         not_open: This phase is not open yet
       phase_empty:

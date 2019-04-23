@@ -56,9 +56,6 @@ en:
       not_selected_investment_proyects: List of all investment projects not selected for balloting
       finished_budgets: Finished participatory budgets
       see_results: See results
-      section_footer:
-        title: Help with participatory budgets
-        description: With the participatory budgets the citizens decide to which projects is destined a part of the budget.
       milestones: Milestones
     investments:
       form:

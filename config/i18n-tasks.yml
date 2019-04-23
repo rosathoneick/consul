@@ -27,6 +27,7 @@ data:
     - config/locales/%{locale}/activerecord.yml
     - config/locales/%{locale}/activemodel.yml
     - config/locales/%{locale}/admin.yml
+    - config/locales/%{locale}/basic.yml
     - config/locales/%{locale}/moderation.yml
     - config/locales/%{locale}/valuation.yml
     - config/locales/%{locale}/management.yml

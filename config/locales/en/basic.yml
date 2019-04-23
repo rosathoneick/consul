@@ -1,0 +1,44 @@
+en:
+  debates:
+    index:
+      section_footer:
+        title: "Help about debates"
+        description: "Start a debate to share opinions with others about the topics you are concerned about."
+        help_text_1: "The space for citizen debates is aimed at anyone who can expose issues of their concern and those who want to share opinions with other people."
+        help_text_2: 'To open a debate you need to sign up on %{org}. Users can also comment on open debates and rate them with the "I agree" or "I disagree" buttons found in each of them.'
+    new:
+      info: "If you want to make a proposal, this is the wrong section, enter %{info_link}."
+      info_link: "create new proposal"
+      more_info: "More information"
+      recommendation_one: "Do not use capital letters for the debate title or for whole sentences. On the internet, this is considered shouting. And nobody likes being shouted at."
+      recommendation_two: "Any debate or comment suggesting illegal action will be deleted, as well as those intending to sabotage the debate spaces. Anything else is allowed."
+      recommendation_three: "Ruthless criticism is very welcome. This is a space for reflection. But we recommend that you stick to elegance and intelligence. The world is a better place with these virtues in it."
+      recommendation_four: "Enjoy this space and the voices that fill it. It belongs to you too."
+      recommendations_title: "Recommendations for creating a debate"
+  proposals:
+    index:
+      section_footer:
+        title: Help about proposals
+        description: Citizens' proposals are an opportunity for neighbours and collectives to decide directly how they want their city to be, after getting sufficient support and submitting to a citizens' vote.
+    new:
+      more_info: "How do citizen proposals work?"
+      recommendation_one: "Do not use capital letters for the proposal title or for whole sentences. On the internet, this is considered shouting. And nobody likes being shouted at."
+      recommendation_two: "Any proposal or comment suggesting illegal action will be deleted, as well as those intending to sabotage the debate spaces. Anything else is allowed."
+      recommendation_three: "Enjoy this space and the voices that fill it. It belongs to you too."
+      recommendations_title: "Recommendations for creating a proposal"
+  polls:
+    index:
+      section_footer:
+        title: Help about voting
+        description: Citizens' polls are a participatory mechanism by which citizens with voting rights can make direct decisions
+  legislation:
+    processes:
+      index:
+        section_footer:
+          title: Help about collaborative legislation
+          description: Participate in the debates and processes prior to the approval of new regulations or strategies. Your opinion will be considered.
+  budgets:
+    index:
+      section_footer:
+        title: Help with participatory budgets
+        description: With the participatory budgets the citizens decide to which projects is destined a part of the budget.

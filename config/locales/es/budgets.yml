@@ -56,9 +56,6 @@ es:
       not_selected_investment_proyects: Ver lista de proyectos de gasto no seleccionados para la votación final
       finished_budgets: Presupuestos participativos terminados
       see_results: Ver resultados
-      section_footer:
-        title: Ayuda sobre presupuestos participativos
-        description: Con los presupuestos participativos la ciudadanía decide a qué proyectos va destinada una parte del presupuesto.
       milestones: Seguimiento de proyectos
     investments:
       form:

@@ -131,22 +131,9 @@ es:
         icon_alt: Icono de Debates
         title: Debates
         help: Ayuda sobre los debates
-      section_footer:
-        title: Ayuda sobre los debates
-        description: Inicia un debate para compartir puntos de vista con otras personas sobre los temas que te preocupan.
-        help_text_1: "El espacio de debates ciudadanos está dirigido a que cualquier persona pueda exponer temas que le preocupan y sobre los que quiera compartir puntos de vista con otras personas."
-        help_text_2: 'Para abrir un debate es necesario registrarse en %{org}. Los usuarios ya registrados también pueden comentar los debates abiertos y valorarlos con los botones de "Estoy de acuerdo" o "No estoy de acuerdo" que se encuentran en cada uno de ellos.'
     new:
       form:
         submit_button: Empieza un debate
-      info: Si lo que quieres es hacer una propuesta, esta es la sección incorrecta, entra en %{info_link}.
-      info_link: crear nueva propuesta
-      more_info: Más información
-      recommendation_four: Disfruta de este espacio, de las voces que lo llenan, también es tuyo.
-      recommendation_one: No escribas el título del debate o frases enteras en mayúsculas. En internet eso se considera gritar. Y a nadie le gusta que le griten.
-      recommendation_three: Las críticas despiadadas son muy bienvenidas. Este es un espacio de pensamiento. Pero te recomendamos conservar la elegancia y la inteligencia. El mundo es mejor con ellas presentes.
-      recommendation_two: Cualquier debate o comentario que implique una acción ilegal será eliminado, también los que tengan la intención de sabotear los espacios de debate, todo lo demás está permitido.
-      recommendations_title: Recomendaciones para crear un debate
       start_new: Empezar un debate
     show:
       author_deleted: Usuario eliminado
@@ -377,17 +364,9 @@ es:
         icon_alt: Icono de Propuestas
         title: Propuestas
         help: Ayuda sobre las propuestas
-      section_footer:
-        title: Ayuda sobre las propuestas
-        description: Las propuestas ciudadanas son una oportunidad para que los vecinos y colectivos decidan directamente cómo quieren que sea su ciudad, después de conseguir los apoyos suficientes y de someterse a votación ciudadana.
     new:
       form:
         submit_button: Crear propuesta
-      more_info: "¿Cómo funcionan las propuestas ciudadanas?"
-      recommendation_one: No escribas el título de la propuesta o frases enteras en mayúsculas. En internet eso se considera gritar. Y a nadie le gusta que le griten.
-      recommendation_three: Disfruta de este espacio, de las voces que lo llenan, también es tuyo.
-      recommendation_two: Cualquier propuesta o comentario que implique una acción ilegal será eliminada, también las que tengan la intención de sabotear los espacios de propuesta, todo lo demás está permitido.
-      recommendations_title: Recomendaciones para crear una propuesta
       start_new: Crear una propuesta
     notice:
       retired: Propuesta retirada
@@ -467,9 +446,6 @@ es:
         icon_alt: Icono de Votaciones
         title: Votaciones
         help: Ayuda sobre las votaciones
-      section_footer:
-        title: Ayuda sobre las votaciones
-        description: Las votaciones ciudadanas son un mecanismo de participación por el que la ciudadanía con derecho a voto puede tomar decisiones de forma directa.
       no_polls: "No hay votaciones abiertas."
     show:
       already_voted_in_booth: "Ya has participado en esta votación en urnas presenciales, no puedes volver a participar."
